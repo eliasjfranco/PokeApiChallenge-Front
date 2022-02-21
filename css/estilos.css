@@ -1,0 +1,56 @@
+#tabla{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.columna{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px;
+    
+}
+
+#contenedor{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#detalle{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card{
+    width: 400px;
+}
+
+.card-header{
+    background-color: white;
+}
+
+.card-title{
+    margin-top: 10px;
+}
+
+h5{
+    text-transform: uppercase;
+}
+
+#info{
+    width: 150px;
+}
+
+.columna img{
+    border-style: solid;
+    border-width: 2px;
+}
+
+img:hover{
+    cursor: pointer;
+}
